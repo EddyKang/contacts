@@ -62,7 +62,7 @@ class Contacts
         raise ConnectionError, self.class.const_get(:PROTOCOL_ERROR)
         end
         
-        parse data
+        #parse data
         
         parse more_data
         
